@@ -1,4 +1,4 @@
-/* Reset e Temas */
+
 * {
     margin: 0;
     padding: 0;
@@ -41,7 +41,6 @@ body {
     border-radius: 50%;
 }
 
-/* Navbar */
 .navbar {
     width: 100%;
     padding: 1em;
@@ -122,7 +121,7 @@ body {
     margin-bottom: 10px;
 }
 
-/* Tema Toggle */
+
 .theme-toggle-container {
     text-align: right;
     margin: 20px;
@@ -135,7 +134,7 @@ body {
     border-radius: 8px;
 }
 
-/* Flexibilidade para Tags e Ícones Sociais */
+
 .tags {
     display: flex;
     flex-wrap: wrap;
@@ -173,7 +172,7 @@ body {
     background-color: #555;
 }
 
-/* Autor */
+
 .author-info {
     display: flex;
     align-items: center;
@@ -226,7 +225,7 @@ body {
     color: #ccc;
 }
 
-/* Rodapé */
+
 .sim-footer {
     text-align: center;
     padding: 10px 0;

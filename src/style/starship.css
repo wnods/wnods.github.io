@@ -1,4 +1,4 @@
-/* Reset básico */
+
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +6,7 @@
     font-family: Arial, sans-serif;
 }
 
-/* Variáveis para temas */
+
 .light-theme {
     --bg-color: #f5f5f5;
     --text-color: #333;
@@ -25,7 +25,7 @@
     --footer-bg: #111;
 }
 
-/* Aplicação das variáveis */
+
 body {
     font-family: "Poppins", sans-serif;
     font-weight: 600;
@@ -36,7 +36,7 @@ body {
     background-position: center;
 }
 
-/* Estilos da imagem de perfil */
+
 .profile-pic {
     width: 15px;
     height: 15px;
@@ -102,7 +102,7 @@ body {
 
 }
 
-/* Estilos do conteúdo */
+
 .sim-content {
     max-width: 800px;
     margin: 50px auto;
@@ -121,18 +121,17 @@ body {
 }
 
 
-
 .theme-toggle-container {
     text-align: right;
     margin: 20px;
 }
 
-/* Ícone de lua (tema escuro) */
+
 .dark-theme #theme-toggle {
     background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M21.752 15.002c-3.423.352-6.515-1.948-6.898-5.409-.235-2.084.496-4.124 1.827-5.547A.38.38 0 0 0 16.212 4c-5.007-.045-9.256 3.925-9.35 8.978-.093 5.054 4.13 9.15 9.18 9.15 2.588 0 4.962-1.092 6.627-3.002a.38.38 0 0 0-.23-.623.383.383 0 0 0-.687.499Z' fill='%23ffcc00'/%3E%3C/svg%3E");
 }
 
-/* Ícone de sol (tema claro) */
+
 .light-theme #theme-toggle {
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' fill='none' viewBox='0 0 24 24'%3E%3Cpath fill='%23FFD700' d='M12 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm6.364 2.05a1 1 0 0 0 1.415 0l.707-.707a1 1 0 0 0-1.415-1.415l-.707.707a1 1 0 0 0 0 1.415ZM20 11a1 1 0 1 0 2 0 1 1 0 0 0-2 0Zm-2.222 6.95a1 1 0 1 0-1.415 1.415l.707.707a1 1 0 0 0 1.415-1.415l-.707-.707ZM12 18a1 1 0 1 0 0 2 1 1 0 0 0 0-2ZM4.636 6.757a1 1 0 1 0 1.414-1.414l-.707-.707A1 1 0 0 0 2.93 6.05l.707.707ZM4 11a1 1 0 1 0-2 0 1 1 0 0 0 2 0Zm1.636 6.364a1 1 0 0 0-1.415 1.415l.707.707a1 1 0 1 0 1.415-1.415l-.707-.707ZM16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z'/%3E%3C/svg%3E");
 }
@@ -144,7 +143,7 @@ body {
     border-radius: 8px;
 }
 
-/* Última atualização */
+
 .update-info {
     color: #aaa;
     font-size: 0.9em;
@@ -152,7 +151,7 @@ body {
     text-align: right;
 }
 
-/* Tags de tópicos */
+
 .tags {
     display: flex;
     flex-wrap: wrap;
@@ -169,7 +168,7 @@ body {
     font-size: 0.9em;
 }
 
-/* Ícones sociais */
+
 .social-icons {
     display: flex;
     gap: 15px;
@@ -193,7 +192,7 @@ body {
 
 
 
-/* Informações do autor */
+
 .author-info {
     display: flex;
     align-items: center;

@@ -166,17 +166,17 @@ li {
   line-height: 1.4;
 }
 li::before {
-  content: "• "; /* Marcador personalizado */
-  color: #50fa7b; /* Cor do marcador */
+  content: "• "; 
+  color: #50fa7b; 
 }
 .education li i {
   margin-right: 0.5em;
-  color: #50fa7b; /* Cor dos ícones */
+  color: #50fa7b;
 }
 
 .projects-section {
   padding: 15em;
-  background-color: #11111100; /* Para combinar com o estilo escuro */
+  background-color: #11111100; 
   color: #fff;
   text-align: center;
 }
@@ -261,13 +261,16 @@ li::before {
 /* Responsividade para Celulares */
 @media (max-width: 768px) {
 
+  .navbar{
+    margin-top: -1em;
+  }
   .navbar ul {
       text-align: inline;
   }
 
   .navbar li {
       display: block;
-      margin: 0.5em;
+      margin: 0.8em;
   }
 
   .cv-button {

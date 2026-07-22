@@ -1,0 +1,15 @@
+# Local high-resolution sources; optimized JPEGs are used by the site.
+/media/fluid-dynamics-background-v2.png
+/media/fluid-flow-background.png
+/media/profile-v2.png
+/media/research/lattice-boltzmann.png
+/media/research/rock-acidification.png
+/media/research/porous-media-dynamics.png
+/media/research/lattice-boltzmann.jpg
+/media/research/porous-media-dynamics.jpg
+
+# Private manuscript: keep the local PDF out of the public GitHub Pages repository.
+/media/papers/artigo-lbm-wilson.pdf
+
+# Local Live Server output.
+/debug.log

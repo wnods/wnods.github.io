@@ -1,111 +1,111 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>WNODS</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-  <link rel="stylesheet" href="/src/style/razorback.css">
+  <meta name="description" content="Academic portfolio of Wilson Oliveira, a graduate researcher in computational geophysics studying reactive flow and transport in porous rocks.">
+  <meta name="author" content="Wilson Oliveira">
+  <meta name="keywords" content="computational geophysics, porous media, Lattice Boltzmann method, reactive transport, rock acidification, digital rock physics">
+  <meta name="theme-color" content="#202429">
+  <link rel="canonical" href="https://wnods.github.io/">
+  <link rel="icon" href="media/favicon.svg" type="image/svg+xml">
+  <meta property="og:title" content="Wilson Oliveira | Computational Geophysics">
+  <meta property="og:description" content="Research on pore-scale fluid dynamics, reactive transport, and digital rock physics.">
+  <meta property="og:type" content="profile">
+  <meta property="og:url" content="https://wnods.github.io/">
+  <meta property="og:image" content="https://wnods.github.io/media/profile-v2.jpg">
+  <meta property="og:image:alt" content="Wilson Oliveira">
+  <meta name="twitter:card" content="summary_large_image">
+  <title>Wilson Oliveira | Computational Geophysics</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Serif:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="src/style/razorback.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Wilson Oliveira",
+    "url": "https://wnods.github.io/",
+    "email": "wilson.oliveira.souza@ig.ufpa.br",
+    "jobTitle": "Graduate Researcher in Computational Geophysics",
+    "affiliation": {"@type": "CollegeOrUniversity", "name": "Federal University of Pará", "url": "https://ufpa.br/"},
+    "sameAs": ["https://github.com/wnods", "https://linkedin.com/in/wnods"],
+    "knowsAbout": ["Computational Geophysics", "Lattice Boltzmann Method", "Reactive Transport", "Digital Rock Physics", "Porous Media"]
+  }
+  </script>
 </head>
-
-<body>
-
-    <!-- Barra de Navegação -->
-<nav class="navbar">
-    <a class="navbar-brand" href="index.html">Wilson O. Souza<span></span></a>
-    <span class="menu-toggle" onclick="toggleMenu()">&#9776;</span> <!-- Ícone de menu -->
-    <ul>
-      <li><a href="#home">Home</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#publications">Contribuitions</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-</nav>
-
-
-<div class="container">
-    
-    <aside class="sidebar">
-      <img src="/media/130806490.png" alt="perfil" class="profile-pic">
-      <h1>Wilson Oliveira</h1>
-      <p>BsC Geophysics at UFPA</p>
-      <h4> Research at Amazon Sustainable Petroseismic Laboratory (LPSA)</h4>
-      <div class="social-icons">
-        <a href="https://linkedin.com/in/wnods" target="_blank" class="icon"><i class="fab fa-linkedin"></i></a>
-        <a href="https://github.com/wnods" target="_blank" class="icon"><i class="fab fa-github"></i></a>
-        <a href="mailto:wilson.oliveira.souza@ig.ufpa.br" class="icon"><i class="fas fa-envelope"></i></a>
+<body class="dark-theme">
+  <a class="skip-link" href="#main-content" data-i18n="skip">Skip to content</a>
+  <header class="site-header" id="site-header">
+    <nav class="navbar shell" aria-label="Primary navigation" data-i18n-aria="primaryNav">
+      <a class="navbar-brand" href="#home" aria-label="Wilson Oliveira — home"><span>Wilson Oliveira</span></a>
+      <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="nav-links"><span></span><span></span><span></span></button>
+      <div class="nav-panel" id="nav-links">
+        <ul>
+          <li><a href="#home" data-i18n="navHome">Home</a></li><li><a href="#research" data-i18n="navResearch">Research</a></li>
+          <li><a href="#publications" data-i18n="navPublications">Publications</a></li>
+          <li><a href="#contact" data-i18n="navContact">Contact</a></li>
+        </ul>
+        <div class="nav-tools">
+          <button class="language-toggle" id="language-toggle" type="button" aria-label="Mudar para português" title="English / Português">PT</button>
+        </div>
       </div>
-    </aside>
+    </nav>
+  </header>
+  <div class="fluid-transition" aria-hidden="true"><span></span><span></span><span></span></div>
 
-   
-   <main class="main-content">
-    <section id="home">
-      <h2>About Me</h2>
-      <h5>I'm an undergraduate Student in Geophysics focusing on Application of ML's and NN's in advancing geophysical research &
-         Modelling a Fluid Dynamic in Rock Porous at the Federal University of Pará (UFPA) on Amazon Sustainable Petroseismic Laboratory (LPSA).</h5>
-   <a href="/media/cv_wilson_oliveira.pdf" class="cv-button" download>
-      <i class="fas fa-download"></i>CV
-    </a>
+  <main class="page-stage" id="main-content">
+    <section class="hero shell page-panel active" id="home" data-page="home" aria-hidden="false">
+      <div class="hero-copy">
+        <p class="eyebrow hero-eyebrow"><span></span><b data-i18n="aboutMe">About me</b></p>
+        <h1>Wilson Oliveira</h1>
+        <p class="hero-role" data-i18n="heroRole">Graduate Researcher in Computational Geophysics</p>
+        <p class="hero-summary" data-i18n="heroSummary">I investigate fluid flow, solute transport, and mineral dissolution in porous rocks at the Federal University of Pará (UFPA), within the Amazon Sustainable Petroseismic Laboratory (LPSA).</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#research"><span data-i18n="explore">Explore my research</span> <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+          <a class="button button-secondary" href="http://lattes.cnpq.br/8966675944108308" target="_blank" rel="noopener noreferrer"><span data-i18n="lattesCv">Lattes CV</span> <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
+        </div>
+        <ul class="social-links" aria-label="Social links"><li><a href="https://linkedin.com/in/wnods" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i><span>LinkedIn</span></a></li><li><a href="https://github.com/wnods" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github" aria-hidden="true"></i><span>GitHub</span></a></li><li><a href="mailto:wilson.oliveira.souza@ig.ufpa.br"><i class="fa-regular fa-envelope" aria-hidden="true"></i><span>Email</span></a></li></ul>
+      </div>
+      <figure class="hero-visual"><div class="portrait-frame"><img src="media/profile-v2.jpg" alt="Wilson Oliveira" width="600" height="600"></div><figcaption>Wilson Oliveira · UFPA / LPSA</figcaption></figure>
     </section>
 
-   <!-- Interests -->
-   <div class="interests">
-    <h2>Interests</h2>
-    <ul>
-      <li>Petrophysics: Modelling 3D Rocks and Optimizer</li>
-      <li>Differentiable numerical simulators</li>
-      <li>Numerical Modelling</li>
-      <li>Machine Learning</li>
-      <li>Neural Network</li>
-      <li>Optimization theory</li>
-      <li>High-Performance Computing</li>
-      <li>Interdisciplinary Research</li>
-    </ul>
-  </div>
-
-  <div class="education">
-    <h2>Education</h2>
-    <ul>
-      <li><i class="fas fa-graduation-cap"></i> BsC (Geophysics) - Federal University of Pará (UFPA)</li>
-      <li><i class="fas fa-graduation-cap"></i> High School - Federal University of Pará Application School (EAUFPA)</li>
-    </ul>
-  </div>
-</div>
-</section>
-
-    <section id="projects" class="projects-section">
-        <h2>Featured Projects Highlights</h2>
-        <div class="project-grid">
-
-          <!-- Projeto 1 -->
-          <div class="project-item">
-            <a href="src/sections/project.html" target="_blank">
-              <img src="media/lanczos.png" alt="Imagem do Projeto 1">
-              <h3>Spectral Modelling Lanczos on Magnetotelluric</h3>
-              <p>In this work, estimates of the MT field are presented using the Lanczos prediction method - SLDM, in which the field is estimated for a frequency, called base frequency.</p>
-              <span class="project-date">May 29, 2024</span>
-            </a>
-          </div>
-      
-          <!-- Projeto 2 -->
-          <div class="project-item">
-            <a href="https://wnods.github.io/Projects/projeto2" target="_blank">
-              <img src="media/project2.jpg" alt="Imagem do Projeto 2">
-              <h3>Meteorological Data Analysis in Tatuoca Island</h3>
-              <p>Processing data with Python for Analysis and Filter a Meteorological Data.</p>
-              <span class="project-date">Apr 6, 2024</span>
-            </a>
-          </div>
-          
+    <section class="section research-section page-panel" id="research" data-page="research" aria-hidden="true"><div class="shell">
+      <div class="section-heading"><p class="eyebrow"><span></span><b data-i18n="currentResearch">Current research</b></p><h2 data-i18n="researchTitle">Research</h2><p data-i18n="researchIntro">My research spans computational fluid dynamics in porous and complex media, with numerical modelling as the common thread.</p></div>
+      <div class="research-grid">
+        <article class="research-card research-card-featured"><span class="research-index">01</span><h3 data-i18n="lbmTitle">Lattice Boltzmann Methods</h3><p data-i18n="lbmText">D3Q19 pore-scale hydrodynamics coupled to advection–diffusion–reaction models, with verification through permeability, mass conservation, and breakthrough behaviour.</p><ul class="tag-list"><li>D3Q19</li><li>Pe / Da</li><li>CPU / GPU</li></ul></article>
+        <article class="research-card"><span class="research-index">02</span><h3 data-i18n="acidTitle">Rock Acidification</h3><p data-i18n="acidText">Coupled HCl transport, surface kinetics, and pore-geometry evolution to analyse compact, wormholing, and uniform dissolution regimes in carbonates.</p><ul class="tag-list"><li>HCl</li><li data-i18n="kinetics">Kinetics</li><li>PVBT</li></ul></article>
+        <article class="research-card"><span class="research-index">03</span><h3 data-i18n="porousTitle">Porous-Media Dynamics</h3><p data-i18n="porousText">Micro-CT segmentation, connectivity and skeleton analysis, pore-scale flow, and structure–property relations for heterogeneous digital rocks.</p><ul class="tag-list"><li>Micro-CT</li><li data-i18n="connectivity">Connectivity</li><li data-i18n="permeability">Permeability</li></ul></article>
+      </div>
+      <div class="research-expertise expertise-layout">
+        <div class="section-heading section-heading-left"><p class="eyebrow"><span></span><b data-i18n="interests">Research interests</b></p><h2 data-i18n="expertiseTitle">Exploring how fluids move through complex media</h2><p data-i18n="expertiseIntro">I explore a broad range of topics rather than claiming specialist status in each one. My core expertise is computational modelling of fluid dynamics.</p></div>
+        <div class="expertise-list">
+          <article><span>01</span><div><h3 data-i18n="exp1Title">Fluid Dynamics &amp; Porous Media</h3><p data-i18n="exp1Text">Lattice Boltzmann, Darcy–Brinkman, Forchheimer, and pore-network simulations for flow across scales.</p></div></article>
+          <article><span>02</span><div><h3 data-i18n="exp2Title">Complex Domains &amp; Mesh Refinement</h3><p data-i18n="exp2Text">Local and adaptive mesh refinement, grid-independence studies, and numerical representation of irregular geometries.</p></div></article>
+          <article><span>03</span><div><h3 data-i18n="exp3Title">Multiphase &amp; Reactive Flow</h3><p data-i18n="exp3Text">Oil–brine systems, transport, interfacial phenomena, mineral reactions, and evolving porous structures.</p></div></article>
+          <article><span>04</span><div><h3 data-i18n="exp4Title">Scientific Machine Learning</h3><p data-i18n="exp4Text">Graph Neural Networks (GNNs) and Physics-Informed Neural Networks (PINNs) applied to physical systems and porous media.</p></div></article>
+          <article><span>05</span><div><h3 data-i18n="exp5Title">Hydrates &amp; Emerging Problems</h3><p data-i18n="exp5Text">Computational investigation of hydrates and other coupled fluid-flow problems in geophysical and energy contexts.</p></div></article>
         </div>
-      </section>
+      </div>
+    </div></section>
+
+    <section class="section publications-section page-panel" id="publications" data-page="publications" aria-hidden="true"><div class="shell"><div class="section-heading section-heading-left"><p class="eyebrow"><span></span><b data-i18n="publicationsEyebrow">Academic output</b></p><h2 data-i18n="publicationsTitle">Publications &amp; reports</h2><p data-i18n="publicationsIntro">Bibliographic records, publication status, citations, PDFs, and related repositories.</p></div><div class="publication-list" id="publication-list" aria-live="polite"></div></div></section>
+
+    <section class="contact-section page-panel" id="contact" data-page="contact" aria-hidden="true"><div class="shell contact-card"><div><p class="eyebrow"><span></span><b data-i18n="navContact">Contact</b></p><h2 data-i18n="contactTitle">Contact and collaboration</h2><p data-i18n="contactText">For research discussions and collaborations in computational geophysics, contact me by email.</p></div><a class="button button-light" href="mailto:wilson.oliveira.souza@ig.ufpa.br"><span data-i18n="sendEmail">Send email</span> <i class="fa-regular fa-envelope"></i></a></div></section>
   </main>
-</div>
 
-
-<script src="/src/script/falcon-theme-toggle.js"></script>
+  <dialog class="project-dialog" id="project-dialog" aria-labelledby="project-dialog-title"><button class="dialog-close" id="project-close" type="button" aria-label="Close project"><i class="fa-solid fa-xmark"></i></button><div class="project-dialog-content">
+    <p class="project-dialog-meta" id="project-dialog-meta"></p><h2 id="project-dialog-title">Project</h2><p class="project-dialog-authors" id="project-dialog-authors"></p>
+    <div class="project-facts" id="project-facts"></div>
+    <section><h3 data-i18n="abstract">Abstract</h3><p id="project-dialog-abstract"></p></section><section><h3 data-i18n="introduction">Introduction</h3><p id="project-dialog-introduction"></p></section><section><h3 data-i18n="results">Principal outcomes</h3><p id="project-dialog-results"></p></section><section><h3 data-i18n="citation">Suggested citation</h3><p id="project-dialog-citation"></p></section>
+    <ul class="project-dialog-topics" id="project-dialog-topics"></ul><div class="project-dialog-actions"><button class="button button-primary" id="project-read-pdf" type="button"><span data-i18n="readFull">Read full article</span> <i class="fa-regular fa-file-pdf"></i></button><a class="button button-secondary repository-button disabled" id="project-repository" aria-disabled="true"><span data-i18n="repository">Repository</span> <i class="fa-brands fa-github"></i></a></div>
+    <section class="project-pdf-panel" id="project-pdf-panel" hidden><div class="project-pdf-header"><div><span data-i18n="fullDocument">Full document</span><strong id="project-pdf-title">PDF</strong></div><div class="pdf-reader-controls">
+      <button id="pdf-thumbnails-toggle" type="button" aria-label="Toggle thumbnails" title="Thumbnails"><i class="fa-solid fa-table-list"></i></button><button id="pdf-zoom-out" type="button" aria-label="Zoom out"><i class="fa-solid fa-minus"></i></button><input id="pdf-zoom-slider" type="range" min="50" max="160" step="10" value="100" aria-label="PDF zoom level"><button id="pdf-zoom-in" type="button" aria-label="Zoom in"><i class="fa-solid fa-plus"></i></button><span id="pdf-zoom-level">100%</span><button id="pdf-fit-width" type="button" aria-label="Fit width"><i class="fa-solid fa-arrows-left-right-to-line"></i></button><button id="pdf-fullscreen" type="button" aria-label="Full screen"><i class="fa-solid fa-expand"></i></button><a id="project-pdf-open" href="#" target="_blank" rel="noopener noreferrer" aria-label="Open original PDF"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+    </div></div><div class="pdf-secondary-controls"><label><span data-i18n="page">Page</span> <input id="pdf-page-input" type="number" min="1" value="1"> / <span id="pdf-page-total">—</span></label><form id="pdf-search-form" role="search"><label class="visually-hidden" for="pdf-search-input" data-i18n="searchPdf">Search PDF</label><input id="pdf-search-input" type="search" placeholder="Search in PDF" data-i18n-placeholder="searchPdf"><button type="submit"><i class="fa-solid fa-magnifying-glass"></i><span data-i18n="search">Search</span></button></form><span id="pdf-search-status" role="status"></span></div><p class="pdf-reader-status" id="pdf-reader-status" role="status" data-i18n="preparing">Preparing document…</p><div class="pdf-reader-body"><aside class="pdf-thumbnails" id="pdf-thumbnails" aria-label="Page thumbnails"></aside><div class="pdf-pages" id="pdf-pages" aria-label="Scrollable PDF document"></div></div></section>
+  </div></dialog>
+  <footer class="site-footer"><div class="shell footer-content"><p>© <span id="current-year">2026</span> Wilson Oliveira</p><p data-i18n="footer">Geophysics · Porous Media · Scientific Computing</p><a href="#home" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></a></div></footer>
+  <script src="src/script/i18n.js"></script><script src="src/script/falcon-theme-toggle.js"></script><script type="module" src="src/script/projects.js"></script>
 </body>
 </html>
